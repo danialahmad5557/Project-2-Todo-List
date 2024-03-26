@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container form {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.container input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #3e8e41;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    
+}
+.container ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+.container ul li span {
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.container ul li .edit-btn {
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container ul li .edit-btn:hover {
+    color: #3e8e41;
+}
+
+.container ul li .delete-btn {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container ul li .delete-btn:hover {
+    color: #e74c3c;
+}
+
+@media screen and (max-width: 768px) {
+    .container form {
+        flex-direction: column;
+    }
+
+    .container input[type="text"] {
+        margin-bottom: 10px;
+    }
+}
