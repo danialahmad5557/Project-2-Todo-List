@@ -7,7 +7,15 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
 }
+.container ul li .edit-btn,
+.container ul li .delete-btn {
+    color: #000;
+}
 
+.container ul li .edit-btn:hover,
+.container ul li .delete-btn:hover {
+    color: #000;
+}
 .container {
     max-width: 600px;
     margin: 50px auto;
